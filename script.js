@@ -4,7 +4,7 @@ var score = 0;
 /* set a bubble value in randomly */
 function makeItBubble(){
     var clutter = "";
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 130; i++) {
 
     var randomeNumber = Math.floor(Math.random()*10);
     clutter += `<div class="bubble">${randomeNumber }</div>`
